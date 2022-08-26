@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/Routes/Home';
 import About from './components/Routes/About';
@@ -12,10 +12,14 @@ import NavBar from './components/Routes/NavBar'
 
 
 function App() {
+
   return (
     <Router>
+    <div className ="navbar">
+    <NavBar/>    
+    </div>
    
-    <NavBar/>
+  
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
