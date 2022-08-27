@@ -8,12 +8,17 @@ import Portfolio from './components/Routes/Portfolio';
 import Contact from './components/Routes/Contact';
 import ErrorPage from './components/Routes/ErrorPage'
 import NavBar from './components/Routes/NavBar'
+import styled from 'styled-components'
 
 
 
 function App() {
 
+
   return (
+    
+
+    
     <Router>
     <div className ="navbar">
     <NavBar/>    
@@ -31,6 +36,7 @@ function App() {
        <Route path="*" element={<ErrorPage/>}/>
     </Routes>
   </Router>
+ 
   );
 }
 

@@ -1,27 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 
 
 const NavBar = () =>{
 
+  // const Ul = styled.ul`
+  // display: flex;
+  // justify-content: center;
+  // gap: 100px;
+  // font-size: 28px;
+  // padding: 30px;
+  // margin-right: 150px;
+  // `;
+
+  
     return (
-        <ul className="navbarBox">
+      <nav>
+
+
       
-          <Link className="home" to="/">Home</Link>
+        <ul className="list">
+      
+          <Link className="items" to="/">Home</Link>
         
       
-          <Link className="about" to="/about">About</Link>
+          <Link className="items" to="/about">About</Link>
         
       
-          <Link className="portfolio" to="/portfolio">Portfolio</Link>
+          <Link className="items" to="/portfolio">Portfolio</Link>
         
       
-          <Link className="experience" to="/experience">Experience</Link>
+          <Link className="items" to="/experience">Experience</Link>
         
-          <Link className="contact" to="/contact">Contact</Link>
+          <Link className="items" to="/contact">Contact</Link>
         
       </ul>
+      </nav>
     );
 }
 
