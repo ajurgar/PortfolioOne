@@ -14,4 +14,14 @@
         margin-right: 0px;
         padding: 20px 0;
     }
+
+    .items:hover, .items:focus, .items:active{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+        transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      }
+
+    
+    
 }

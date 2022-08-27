@@ -16,7 +16,7 @@ const Home = () => {
        <img className="pic" src={img}  alt="profilePic"></img>
        <div className="welcomeText">
 
-          <h1>Hi! I’m Alejandro Garcia</h1>
+          <h1>Alejandro Garcia</h1>
           <p>I’m a Junior Software Developer based in Glasgow, UK.</p>
           <p>I love learning new technologies and making applications
             that can improve people life’s.
