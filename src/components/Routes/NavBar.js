@@ -42,7 +42,8 @@ const NavBar = () => {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  
+  
   background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
   `
 
@@ -79,7 +80,7 @@ const NavBar = () => {
 
 
   return (
-    <Nav>
+    <Nav className="navBox">
       {(toggleMenu || screenWidth > 500) && (
         <NavUnlisted className="list">
          <Items className="items" to="/"><FontAwesomeIcon className="home" icon={faHouse}/>Home</Items>

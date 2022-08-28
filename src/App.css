@@ -5,27 +5,29 @@
   justify-content: space-around;
   align-items: center;
   height: 98vh;
+  margin-left: -38px;
+
 }
 
 #header {
   height: 10vh;
   width: 98vw;
 
-  border-style: solid;
-  border-width: 0.2vh;
+  /* border-style: solid;
+  border-width: 0.2vh; */
 }
 
 #main {
   height: 79vh;
   width: 98vw;
 
-  border-style: solid;
-  border-width: 0.2vh;
+ 
 }
 
 #footer {
   height: 3vh;
   width: 98vw;
+  text-align: end;
 
  
 }

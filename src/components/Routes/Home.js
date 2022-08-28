@@ -24,10 +24,10 @@ const Home = () => {
 
           <h1>Alejandro Garcia</h1>
           <p>I am a proactive Software Developer, soon to graduate from the Professional Software Development
-      course at CodeClan, with management experience in target driven roles
-      and vast knowledge of the retail industry.</p>
+      course at CodeClan, with six years of management experience in target driven roles
+      and vast knowledge of Business Operations and the retail industry.</p>
       <p>Objective and analytical, I enjoy working my way through problems, 
-      finding efficient solutions that meets minimum viable product as well as 
+      finding efficient solutions to achieve targets as well as 
       taking oppurtinities to investigate new areas and expand my knowledge.</p>
        
         </div>
