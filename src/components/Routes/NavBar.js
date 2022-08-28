@@ -70,16 +70,15 @@ const NavBar = () => {
     font-size: 18px;`
   
 
- 
-
 
   return (
     <Nav>
       {(toggleMenu || screenWidth > 500) && (
         <NavUnlisted className="list">
           <Items className="items" to="/">Home</Items>
-          <Items className="items" to="/portfolio">Portfolio</Items>
+        
           <Items className="items" to="/experience">Experience</Items>
+          <Items className="items" to="/portfolio">Portfolio</Items>
           <Items className="items" to="/contact">Contact</Items>
         </NavUnlisted>
       )}

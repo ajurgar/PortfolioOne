@@ -1,0 +1,42 @@
+.experienceBox{
+    margin-left: 8%;
+    margin-right: 8%;
+    color: #202638 ;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.codeClan{
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.codeClan h2{
+    text-align: center;
+}
+
+.skillsBox{
+    text-align: justify;
+}
+
+.skillsBox h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.backgroundBox{
+    text-align: justify;
+}
+
+.backgroundBox h2{
+    text-align: center;
+    margin-top: 80px;
+}

@@ -1,5 +1,35 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 .App {
-  text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 98vh;
 }
 
+#header {
+  height: 10vh;
+  width: 98vw;
+
+  border-style: solid;
+  border-width: 0.2vh;
+}
+
+#main {
+  height: 79vh;
+  width: 98vw;
+
+  border-style: solid;
+  border-width: 0.2vh;
+}
+
+#footer {
+  height: 3vh;
+  width: 98vw;
+
+ 
+}
+
+.social-icons{
+  display: flex;
+}

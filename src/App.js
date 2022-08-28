@@ -16,14 +16,16 @@ function App() {
 
   return (
     <div>
+   <div className="App">
 
-<Router>
-    <div className ="navbar">
+<header id="header">This is the header</header>
+  
+  <main id="main">
+  <Router>
+   <div className ="navbar">
     <NavBar/>    
     </div>
-   
-  
-    <Routes>
+ <Routes>
       <Route path="/" element={<Home/>} />
      
       <Route path="/contact" element={<Contact/>} />
@@ -36,7 +38,17 @@ function App() {
   </Router>
 
 
+  </main>
 
+
+<footer id="footer">
+  <h4>Website developed by Alejandro Garcia </h4>
+</footer>
+
+</div>
+
+  
+  
 </div>
     
 
