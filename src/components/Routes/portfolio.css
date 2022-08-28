@@ -1,0 +1,24 @@
+.portfolioBox{
+    text-align: justify;
+    display: flex;
+    color: #202638 ;
+}
+
+.portfolioBox h3{
+    text-align: center;
+    margin-top: 40px;
+    color: #202638 ;
+}
+
+.projectOne{
+    width: 50%;
+    display: flex;
+
+
+}
+
+
+.textContent{
+    width: 50%;
+}
+
