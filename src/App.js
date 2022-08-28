@@ -13,18 +13,24 @@ import NavBar from './components/Routes/NavBar'
 
 function App() {
 
-
+//add
   return (
     <div>
    <div className="App">
 
-<header id="header">This is the header</header>
+<header id="header">
+
+
+</header>
   
   <main id="main">
+  
   <Router>
    <div className ="navbar">
     <NavBar/>    
+
     </div>
+
  <Routes>
       <Route path="/" element={<Home/>} />
      
@@ -35,9 +41,11 @@ function App() {
 
        <Route path="*" element={<ErrorPage/>}/>
     </Routes>
+    
   </Router>
 
-
+ 
+  
   </main>
 
 

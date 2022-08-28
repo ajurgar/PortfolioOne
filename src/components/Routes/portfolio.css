@@ -13,12 +13,13 @@
 .projectOne{
     width: 50%;
     display: flex;
-
+    color: #202638 ;
 
 }
 
 
 .textContent{
     width: 50%;
+    color: #202638 ;
 }
 

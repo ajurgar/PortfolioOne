@@ -1,5 +1,7 @@
 import React from "react";
 import './home.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -29,11 +31,18 @@ const Home = () => {
       taking oppurtinities to investigate new areas and expand my knowledge.</p>
        
         </div>
-
+      
 
       </div>
-    <button className="btn">Download</button>
- 
+
+      <div>
+      <a
+        href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+        download
+      >
+        Download CV
+      </a>
+    </div>
     </div>
     
 

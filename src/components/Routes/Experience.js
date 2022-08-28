@@ -1,5 +1,9 @@
 import React from "react";
 import './experience.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faJava, faJs, faNodeJs, faReact, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons';
+
 
 
 
@@ -21,16 +25,17 @@ const Experience = () => (
    <h3>Skills</h3>
 
     <ul className="skills">
-      <li>Java & JavaScript</li>
-      <li>CSS & HTML</li>
-      <li>Node.js</li>
-      <li>React</li>
-      <li>MongoDB and SQL</li>
-      <li>TDD and OOP</li>
-      <li>Version Control Git</li>
-      <li>SOLID principles</li>
-      <li>Version Control Git</li>
-      <li>Agile Methodologies</li>
+    
+      <li className="card">Java & JavaScript</li>
+      <li className="card">CSS & HTML</li>
+      <li className="card">Node.js</li>
+      <li className="card">React</li>
+      <li className="card">MongoDB and SQL</li>
+      <li className="card">TDD and OOP</li>
+      <li className="card">Version Control Git</li>
+      <li className="card">SOLID principles</li>
+      <li className="card">Version Control Git</li>
+      <li className="card">Agile Methodologies</li>
     </ul>
 
    </div>

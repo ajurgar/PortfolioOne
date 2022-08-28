@@ -2,6 +2,13 @@ import React, { useState, useEffect }  from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import './NavBar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+
+
 
 
 
@@ -75,11 +82,11 @@ const NavBar = () => {
     <Nav>
       {(toggleMenu || screenWidth > 500) && (
         <NavUnlisted className="list">
-          <Items className="items" to="/">Home</Items>
+         <Items className="items" to="/"><FontAwesomeIcon className="home" icon={faHouse}/>Home</Items>
         
-          <Items className="items" to="/experience">Experience</Items>
-          <Items className="items" to="/portfolio">Portfolio</Items>
-          <Items className="items" to="/contact">Contact</Items>
+          <Items className="items" to="/experience"><FontAwesomeIcon className="home" icon={faBriefcase}/>Experience</Items>
+          <Items className="items" to="/portfolio"><FontAwesomeIcon className="gitHub" icon={faGithubSquare}/>Portfolio</Items>
+          <Items className="items" to="/contact"><FontAwesomeIcon className="address" icon={faAddressCard}/>Contact</Items>
         </NavUnlisted>
       )}
       <Toggle onClick={toggleNav} className="btn">BTN</Toggle>
