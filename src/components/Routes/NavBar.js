@@ -39,11 +39,10 @@ const NavBar = () => {
   
 
   const Nav = styled.nav`
-  position: fixed;
-  top: 0;
+  ${'' /* position: fixed;
+  top: 0; */}
+  
   width: 100%;
-  
-  
   background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
   `
 
@@ -52,10 +51,11 @@ const NavBar = () => {
     background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    ${'' /* align-items: center; */}
+    ${'' /* position: relative; */}
     padding: 25px;
     gap:60px;
+    margin: 0;
     
     a{
       text-decoration: none;
